@@ -9,6 +9,7 @@ dependencies = [
  "actix-web",
  "aes",
  "rand",
+ "serde",
 ]
 
 [[package]]

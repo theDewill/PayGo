@@ -18,11 +18,11 @@ use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
 
 #[actix_web::main]
 fn main() {
-    let mut resoruces: Vec<SourceTypes> = Vec::with_capacity(4);
+    //let mut resoruces: Vec<SourceTypes> = Vec::with_capacity(4);
 
     //Game On
-    let ENC = Encryptor::NEW(resoruces, None);
+    //let ENC = Encryptor::NEW(resoruces, None);
     let server : <Server> = Server::new(HashMap::new()); // server init
-
+    server.start();
  
 }
